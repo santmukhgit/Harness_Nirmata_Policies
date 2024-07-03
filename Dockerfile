@@ -6,7 +6,7 @@ RUN apt-get update && apt-get install -y nano
 #--allow-unauthenticated
 #sudo
 
-ADD . /app/
+COPY . /app/
 
 EXPOSE 8080
 
