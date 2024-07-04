@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:oracular-20240617
 
 WORKDIR /app
 
